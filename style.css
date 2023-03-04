@@ -1,0 +1,157 @@
+h1 {
+    font-size: 32px;
+    border: 3px darkred;
+}
+
+body {
+    grid-gap:10px;
+    background-color: black;
+}
+
+header {
+    height: 200px;
+    background-image: url("https://images.unsplash.com/photo-1431440869543-efaf3388c585?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+    opacity: 0.75;
+    text-align: center;
+    -webkit-text-stroke: 1px red;
+    color: bisque;
+}
+
+footer {
+    height:100px;
+    width:100%;
+    text-align: center;
+}
+
+aside {
+    width: 25%;
+    height: auto;
+}
+
+p  {
+    color: gold;
+    font-style: oblique;
+    font-palette: revert;
+    text-align:center;
+}
+
+article {
+    margin-bottom: 50px;
+    margin-left: 450px;
+    width:50%;
+    position:relative;
+    bottom:150px;
+}
+
+.right-aside {
+    position: absolute;
+    top: 265px;
+    right: 115px;
+    width: 200px; /* set width as needed */
+    float: right;
+}
+
+.img1 {
+    width:50%;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    width: 50%;
+    height: auto;
+    margin: 10px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.container {
+    display: block;
+    background: darkred;
+}
+
+.cut_container {
+    display: block;
+    background-image: url("https://wallpapercave.com/wp/wp6486599.jpg");
+}
+
+.zivotni-moto {
+    display: block;
+    background-image: url("https://i.pinimg.com/originals/4a/6d/37/4a6d37d117336e7f3a4783132ab28aec.jpg");
+    width:45%;
+    height:15%;
+    border-radius: 25px;
+}
+
+.omiljeni-citat {
+    display: block;
+    background-image: url("https://i.pinimg.com/originals/4a/6d/37/4a6d37d117336e7f3a4783132ab28aec.jpg");
+    width:50%;
+    height:15%;
+    position: relative;
+    left:850px;
+    bottom: 50px;
+    border-radius: 25px;
+}
